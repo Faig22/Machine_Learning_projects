@@ -8,7 +8,8 @@
 2. Изменили размер изображений на *448х448* (как и в оригианьной статье) и переписали в тензоры из **Pytorch**
 3. Изображения были загружены в даталоадеры батчами размером *8*
 ### Создание модели
-![image](https://github.com/Faig22/YOLOv1/assets/95417164/790a1153-4a9a-4e16-9996-64372f6ec091)
+![image](https://github.com/Faig22/Machine_Learning_projects/assets/95417164/1c121226-00fb-4a37-b33b-ae4c939fbbd6)
+
 
 1. Модель реализована из статьи (https://arxiv.org/pdf/1506.02640.pdf)
 2. **CNN Block**. Блок, состящий из одной свертки, батч-нормализации и функции активации **LeakyRelu**
@@ -16,9 +17,11 @@
 ### Функция потерь
 1. Написана метрика **intersection of union** (**IoU**), которая считает площадь пересечения между таргетом и предсказанием
 2. **YoloLoss**. Реализована функция потерь из статьи 
-![image](https://github.com/Faig22/YOLOv1/assets/95417164/91ad4dc8-ca0c-4d50-8296-2566423ed272)
+![image](https://github.com/Faig22/Machine_Learning_projects/assets/95417164/43f2dc2d-badb-4f9d-93a3-ddfbc58c2f65)
+
 ### Обучение 
 1. **Non Maximum Suppression**. Метод, позволяющий отобрать лучшие рамки для каждого предсказанного объекта
 2. **YOLOv1** обучена на *50* эпохах
 
-![image](https://github.com/Faig22/YOLOv1/assets/95417164/f93947d5-8f74-4260-a1ae-a51cb2e39be7)
+![image](https://github.com/Faig22/Machine_Learning_projects/assets/95417164/f4fbbcc6-2336-449d-acff-6d69830798eb)
+
